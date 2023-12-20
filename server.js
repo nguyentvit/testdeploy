@@ -12,7 +12,7 @@ app.get('/api', (req, res) => {
     })
 })
 
-app.get('/.well-known/pki-validation/', (req, res) => {
+app.get('/.well-known/pki-validation/BA5506CE7CAA3179262CEDC197D50FA8.txt', (req, res) => {
     res.sendFile(path.join(__dirname, 'BA5506CE7CAA3179262CEDC197D50FA8.txt'))
 })
 
